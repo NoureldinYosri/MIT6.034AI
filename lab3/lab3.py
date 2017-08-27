@@ -134,6 +134,7 @@ ab_iterative_player = lambda board: \
 
 
 def get_for(board,player):
+    #source : https://softwareengineering.stackexchange.com/questions/263514/why-does-this-evaluation-function-work-in-a-connect-four-game-in-java
     cell_vals = [[3, 4, 5, 7, 5, 4, 3],[4, 6, 8, 10, 8, 6, 4], [5, 8, 11, 13, 11, 8, 5],[5, 8, 11, 13, 11, 8, 5], [4, 6, 8, 10, 8, 6, 4], [3, 4, 5, 7, 5, 4, 3]];
     ret = 0;
     vis = set();
